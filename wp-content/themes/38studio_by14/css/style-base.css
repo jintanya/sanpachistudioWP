@@ -1,0 +1,825 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ------------------------reset css---------------------- */
+
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+	-webkit-text-size-adjust: 100%;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+span.red{
+	font-size:13px;
+	margin:0 0 0 4px;
+	}
+
+/* /------------------------reset css---------------------- */
+
+body{
+	background:url(../images/com/center_repeat.gif) repeat-y center #fafafb;
+	font-size:12px;
+	font-family:sans-serif;
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif
+	-webkit-text-size-adjust: auto;
+	}
+.red{color: #f00;}
+
+.mb10{margin-bottom: 10px;}
+.mb15{margin-bottom: 15px;}
+.mb20{margin-bottom: 20px;}
+.mt10{margin-top: 10px;}
+.mt15{margin-top: 15px;}
+.mt20{margin-top: 20px;}
+/* index */
+
+body#index{
+	font-family:sans-serif;
+	background-color:#fafafb;
+	background-image:none;
+	background-repeat:no-repeat;
+	}
+
+.wrapper{
+	width:300px;
+	padding:10px;
+	margin:-100px 0 0 -150px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	}
+
+table.index_menu{
+	width:224px;
+	margin:0 auto;
+	table-layout:fixed;
+	border-collapse:collapse;}
+	
+table.index_menu td img{
+	display:block;
+	float:left;}
+	
+div.index_news{
+	margin-top:40px;
+	text-align:center;
+	font-size:12px;
+	line-height:1.8;}
+
+	.index_date{
+		margin-bottom:15px;
+		color:#838283;}
+		
+	div.index_news a{
+		color:#333;
+		text-decoration:underline;}
+		
+	div.index_news a:hover{
+		color:#666;
+		}
+	
+/* /index */
+	
+#header{
+	height:190px;
+	background-color:#fafafb;
+	padding-top:50px;
+	}
+	
+#header_blogs{
+	height:175px;
+	background-color:#fafafb;
+	padding-top:50px;
+	}
+table.header_menu{
+	width:180px;
+	margin:0 auto 0;
+	table-layout:fixed;
+	border-collapse:collapse;}
+	
+table.header_menu td img{
+	display:block;
+	float:left;
+	border:none;}
+	
+table.header_menu td a img{
+	border:none;}
+
+
+/* about38 */
+
+.about38{
+	line-height:24px;
+	}
+
+p.link{
+	margin-top:10px;
+	padding-right:5px;
+	line-height:26px;}
+	
+p.link a{
+	color:#333;}
+	
+p.link a:hover{
+	text-decoration:none;
+	color:#333;}
+
+/* about38 */
+
+/* access map */
+	
+table.access_map{
+	width:850px;
+	margin:20px auto 30px;
+	border-collapse:collapse;
+	table-layout:fixed;
+	line-height:1.6;}
+
+table.access_map th,table.access_map td{
+	padding:15px;}
+
+table.access_map th{
+	width:425px;
+	font-weight:normal;
+	text-align:right;
+	vertical-align:top;
+	padding:15px 30px 15px 15px;
+	}
+
+table.access_map td{
+	width:425px;
+	text-align:left;
+	padding:15px 0px 15px 30px;
+	}
+	
+table.access_map a{
+	color:#333;}
+	
+table.access_map a:hover{
+	color:#999;
+	text-decoration:none;}
+	
+table.access_map td a img{
+	border:none;
+	}
+	
+a.h_opac:hover{
+	opacity:0.6;
+	filter:alpha(opacity=60);
+	-ms-filter: "alpha(opacity=60)";}	
+
+/* access map */
+
+/* schedule */
+
+p.year{
+	text-align:center;
+	background-color:#fafafb;
+	padding-bottom:35px;
+	}
+
+p.year a{
+	font-size:12px;
+	margin:0 10px;
+	text-decoration:none;
+	background-color:#fafafb;
+	font-family: 'Droid Sans', sans-serif;
+	font-weight:normal;
+	color:#999;
+	}
+	
+p.year a:hover{
+	color:#000;
+	}
+	
+#year_slider{
+	width:300px;
+	margin:0 auto;}
+	
+#year_slider div{
+	text-align:center;}
+
+p.year a.non{
+	font-size:12px;
+	margin:0 10px;
+	text-decoration:none;
+	background-color:#fafafb;
+	font-family: 'Droid Sans', sans-serif;
+	font-weight:normal;
+	color:#999;
+	cursor:default;
+	}
+
+p.year a.end{
+	color:#fafafb;
+	cursor:default;}
+
+p.year a.chek{
+	font-size:16px;
+	text-decoration:none;
+	color:#000;}
+	
+p.year a.chek_blog{
+	font-size:13px;
+	text-decoration:none;
+	font-weight:bold;
+	color:#000;}
+	
+	
+table.schedule_entry{
+	width:800px;
+	margin:10px auto 40px;
+	border-collapse:collapse;
+	table-layout:fixed;
+	line-height:1.6;}
+
+table.schedule_entry th,table.schedule_entry td{
+	padding:15px;
+	vertical-align:top;}
+
+table.schedule_entry th{
+	width:400px;
+	font-weight:normal;
+	text-align:right;
+	vertical-align:top;
+	padding:15px 22px 15px 22px;
+	}
+
+table.schedule_entry td{
+	width:400px;
+	padding:10px 20px 10px 20px;
+	}
+	
+table.schedule_entry td img + img{
+	border:none;
+	display:inline-block;
+	margin-top:15px;
+	}
+	
+table.schedule_entry td.photo_caption{
+	padding-top:20px;}
+	
+table.schedule_entry td.option_text{
+	padding-top:52px;}
+
+table.schedule_entry td.small{
+	font-size:11px;}
+
+p.sc_tittle{
+	font-size:16px;
+	font-weight:bold;
+	color:#e62168;
+	margin-bottom:15px;}
+	
+p.text{
+	line-height:1.7;
+	margin-bottom:16px;
+	text-align: justify;
+	-ms-text-justify: inter-word;
+	text-justify: inter-word;}
+
+	
+p.text a{
+	color:#182b82;
+	}
+	
+p.small{
+	font-size:11px;}
+
+p.small a{
+	color:#182b82;
+}
+
+p.small a:hover{
+	text-decoration:none;
+}
+
+.orange{
+	color:#ea5018;}
+	
+.blue{color: #3269bd;}
+	
+img.link{
+	vertical-align:-2px}
+
+
+.blog_group{
+	font-weight:normal;
+	margin:0px 0 5px;
+	font-size:14px;
+	color:#000;
+	font-family: 'Droid Sans', sans-serif;}
+	
+a + .blog_group{
+	font-weight:normal;
+	margin:30px 0 5px;}
+	
+/* schedule */
+
+/* recipe */
+
+.recipe_title_box{
+	margin-bottom:10px;
+	background:url(../images/blog/fork.gif) no-repeat left;
+	padding-left:20px;}
+	
+p.recipe_copy{
+	color:#911d34;
+	font-weight:bold;}
+h3.recipe_title{
+	font-size:16px;}
+
+table.blog_entry{
+	width:800px;
+	margin:10px auto 30px;
+	border-collapse:collapse;
+	table-layout:fixed;
+	line-height:1.6;}
+
+table.blog_entry th,table.blog_entry td{
+	padding:15px;
+	vertical-align:top;}
+
+table.blog_entry th{
+	width:400px;
+	font-weight:normal;
+	text-align:right;
+	vertical-align:top;
+	padding:15px 22px 15px 22px;
+	}
+
+table.blog_entry td{
+	width:400px;
+	padding:10px 20px 10px 20px;
+	}
+	
+table.blog_entry td img + img{
+	border:none;
+	display:inline-block;
+	margin-top:15px;
+	}
+	
+.blog_entry{
+	width:800px;
+	margin:10px auto 30px;
+	line-height:1.6;}
+	
+	.blog_left{
+		width:360px;
+		padding:10px 20px 10px 20px;
+		float:left;
+		line-height:26px;
+		text-align:right;
+		}
+		
+	.blog_left a{
+		color:#333;
+		text-decoration:none;
+		}
+		
+	.blog_left a:hover{
+		color:#999;
+		}
+		
+	.blog_left a.here{
+		background-color:#cde1f5;
+		padding:2px 4px 2px 10px;
+		}
+		
+	.blog_right{
+		width:300px;
+		float:right;
+		padding:10px 80px 10px 20px;
+		}
+		
+	.blog_right img + img{
+	border:none;
+	display:inline-block;
+	margin-top:15px;
+	}
+	
+.blog_entry table{
+	margin:5px auto;
+	display:block;
+	text-align:left;
+	}
+	
+table.recipe_set{
+	}
+
+table.recipe_set th,table.recipe_set td{
+	padding:5px 0;
+	vertical-align:top;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	line-height:18px;
+	}
+	
+table.recipe_material{
+	width:300px;
+	border:1px dashed #aaa;
+	border-width:1px 0 1px 0;
+	}
+
+table.recipe_material th,table.recipe_material td{
+	padding:5px 0;
+	vertical-align:top;
+	}
+	
+table.recipe_nunbering{
+	width:300px;
+	}
+
+table.recipe_nunbering th,table.recipe_nunbering td{
+	padding:10px 0;
+	vertical-align:top;
+	}
+
+
+/*/ recipe /*/
+
+
+/* web shop */
+
+	/* web shop index */
+	
+body#webshop{
+	background-image:none;
+	background-color:#</div></div></div></div>;
+	font-size:12px;
+	font-family:sans-serif;
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif
+	-webkit-text-size-adjust: auto;
+	}
+	
+	#header_webshop{
+		height:65px;
+		margin-bottom:25px;
+	}
+	
+	#header_webshop table.header_menu{
+		margin-top:50px
+	}
+
+		#index_slider{/* jQuery指定用 */
+			width:880px;
+			height:400px;
+			margin:0px auto 0;
+			position:relative;
+			}
+			
+		#index_slider a:hover{
+			opacity:0.8;
+			filter:alpha(opacity=80);
+			-ms-filter:"alpha( opacity=80 )";
+			}
+			
+		#index_slider a img{
+			border:none;
+			}
+						
+		.bx-wrapper{
+			width:880px;
+			height:390px;
+			margin:0 auto;
+			}
+			
+		span.t-hidn{
+			visibility:hidden;}
+			
+	.bx-pager{/* 既存のページ番号を消す */
+		display:none;}
+	
+	a.bx-prev,a.bx-next{
+		width:18px;
+		height:25px;
+		display:block;
+		background-repeat:no-repeat;
+		background-position:0 0;
+		position:absolute;
+		}
+		
+	a.bx-prev:hover,a.bx-next:hover{
+		background-position:bottom;}
+		
+	a.bx-prev{
+		background-image:url(../images/shop/arrow_left.jpg);
+		top:190px;
+		left:-60px;}
+
+	a.bx-next{
+		background-image:url(../images/shop/arrow_right.jpg);
+		top:190px;
+		right:-60px;}
+	
+	
+		.item_detail_box{
+		width:880px;
+		margin:0 auto;
+		}
+		
+			div.item_detail_box_img_area{
+				width:880px;
+				height:430px;
+				padding-bottom:5px;
+				text-align:center;
+				position:relative;
+				}
+				
+			div.item_detail_box_img_area a{
+				width:50px;
+				height:20px;
+				padding:0 5px;
+				display:inline-block;
+				}
+			
+			div.item_detail_box_img_area a img.idbia_main{
+				display:none;
+			}
+			div.item_detail_box_img_area a:hover img.idbia_main{
+				width:880px;
+				height:400px;
+				margin:0 5px;
+				display:inline-block;
+				position:absolute;
+				top:0;
+				left:-5px;
+				}
+			
+			div.item_detail_box_img_area a img.idbia_thumb{
+				border:1px solid #fafafb;
+				}	
+			div.item_detail_box_img_area a:hover img.idbia_thumb{
+				border:1px solid #999;
+				}
+		
+	.thumbs{
+		margin:40px auto 0px;
+		}
+	
+	#example2{
+		width:880px;
+		}
+		
+	.caption{
+		width:800px;
+		margin:10px auto 0;
+		text-align:center;
+		line-height:1.5;}
+		
+	.caption_left{
+		width:400px;
+		margin:10px auto 0;
+		float:left;
+		text-align:center;
+		line-height:1.5;}
+		
+	.caption_right{
+		width:400px;
+		margin:10px auto 0;
+		float:right;
+		text-align:center;
+		line-height:1.5;}
+		
+	.caption2box{
+		clear:both;
+		width:800px;
+		margin:0 auto;
+		line-height:1.8;
+		text-align:center;
+		}
+		
+	#payment{
+		width:500px;
+		margin:20px auto;}
+		
+	.caption2box #payment{
+		width:400px;
+		margin:20px auto;}
+		
+	.payment{
+		width:500px;
+		margin:20px auto;}
+		
+	.caption2box .payment{
+		width:400px;
+		margin:20px auto;}
+		
+	table#payment_set{
+		width:500px;
+		text-align:center;
+		}
+		
+	table#payment_set td{
+		padding:5px 0 10px;
+		}
+		
+	table#payment_set td.payment_btn{
+		padding:10px 0 5px;
+		}
+	
+	input#payment_btn_addcart,.payment input[type=image]{
+		width:153px;
+		height:31px;
+		margin:0 auto 0;
+		display:block;
+		background:url(../images/shop/addcart_off.jpg) no-repeat;}
+		
+	input#payment_btn_addcart:hover,.payment input[type=image]:hover{
+		background:url(../images/shop/addcart_on.jpg) no-repeat;}
+		
+	p.webshop_top{
+		text-align:center;
+		margin:45px 0 30px 0;
+		line-height:1.6;
+		}
+	
+	p.webshop_top a{
+		text-decoration:none;
+		color:#000}
+		
+	p.webshop_top a:hover{
+		color:#aaa;
+		text-decoration:none;}
+		
+	p.webshop_top a.here{
+		text-decoration:none;
+		color:#ff1985;}
+		
+	p.shopping_rules{
+		width:600px;
+		margin:0 auto;
+		display:block;
+		padding:1px 4px 0px;
+		color:#666;
+		text-align:center;
+		}
+		
+	p.shopping_rules a{
+		color:#333;
+		text-decoration:none;
+		padding-left:20px;
+		background:url(../images/shop/minicart.gif) no-repeat 0 0;
+		}
+		
+	p.shopping_rules a:hover{
+		color:#999;
+		}
+		
+	p.shopping_rules a:hover{
+		background:url(../images/shop/minicart_on.gif) no-repeat 0 0;
+		}
+	/* /web shop index */
+	
+	/* shopping rules */
+	
+	p.shopping_rules_top{
+		text-align:center;
+		margin:45px 0 15px 0;
+		line-height:1.6;
+		}
+	
+	.shopping_rules_table{
+		width:495px;
+		margin:0 auto 50px;
+		padding: 0;
+		table-layout:fixed;
+		}
+		
+	.shopping_rules_table th,.shopping_rules_table td{
+		padding:3px 3px 3px 13px;
+		font-weight:normal;
+		margin:0 auto 10px;
+		line-height:1.5;
+		display:block;
+		}
+		
+	.shopping_rules_table th{
+		padding:0 5px 0 10px;
+		margin:10px 0 0 0;
+		width:500px;
+		text-align:left;
+		display:block;
+		border-left:2px dotted #000;}
+		
+	.shopping_rules_table a{
+		color:#000;
+		text-decoration:underline;
+		}
+		
+	.shopping_rules_table a:hover{
+		color:#999;
+		text-decoration:none;
+		}
+		
+	h2.shopping_rules_title{
+		width:480px;
+		padding:10px 5px 10px 10px;
+		margin:0 auto 10px auto;
+		border-left:2px dotted #000;
+		font-size:15px;
+		position: relative;
+		}
+
+	h2.shopping_rules_title span{
+		margin:0 0 0 26px;
+		font-size:13px;
+		line-height: 20px;
+		font-weight: normal;
+		color: #999;
+		position: absolute;
+		top: 5px;
+		right: 0;
+
+		}
+
+		h2.shopping_rules_title span a#en,h2.shopping_rules_title span a#jpn{
+		color: #555;
+		}
+		
+		h2.shopping_rules_title span a{
+		color: #999;
+		}
+		
+		h2.shopping_rules_title span a:hover{
+		color: #555;
+		}
+	
+	/* shopping rules */
+	
+	a.home{
+		width:12px;
+		height:11px;
+		display:inline-block;
+		vertical-align: 0px;
+		background:url(../images/shop/minihome.gif) no-repeat}
+
+	a.home:hover{
+		width:12px;
+		height:11px;
+		display:inline-block;
+		background:url(../images/shop/minihome_on.gif) no-repeat}
+		
+	a.home.here{
+		width:12px;
+		height:11px;
+		display:inline-block;
+		background:url(../images/shop/minihome_here.gif) no-repeat}
+		
+	a.fb{
+		width:12px;
+		height:12px;
+		display:inline-block;
+		vertical-align: -1px;
+		background:url(../images/facebook.jpg) no-repeat}
+
+	a.fb:hover{
+		display:inline-block;
+		background:url(../images/facebook_on.jpg) no-repeat}
+		
+	a.fb.here{
+		width:12px;
+		height:12px;
+		display:inline-block;
+		background:url(../images/facebook_on.jpg) no-repeat}
+
+	.select_none{display: none;}
+	
+	.model_material{border-collapse:separate; margin: 10px 0 10px 0;}
+	.model_material th{width: 55px;font-weight: normal; text-align: left; border-right: 1px dotted #666;}
+	.model_material td{padding-left: 5px; line-height: 1.3; }
+	.model_material td.mr_c_note{font-size: 11px; padding-top: 10px; color: #555;}
+
+	.order_option{
+		padding: 5px 0;
+		text-align: center;
+		border: 1px dotted #000;}	
+
+/* /web shop */
