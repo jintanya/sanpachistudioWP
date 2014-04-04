@@ -61,7 +61,7 @@ body{
 .mt20{margin-top: 20px;}
 /* index */
 
-body#index{
+body.home{
 	font-family:sans-serif;
 	background-color:#fafafb;
 	background-image:none;
@@ -94,7 +94,7 @@ div.index_news{
 	line-height:1.8;}
 
 	.index_date{
-		margin-bottom:15px;
+		margin-bottom:5px;
 		color:#838283;}
 		
 	div.index_news a{

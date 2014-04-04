@@ -38,7 +38,7 @@ get_header(); ?>
 			</td>
 		</tr>
 	<!--tr>
-		<td><a href="webshop/index.html"><img src="images/6_off.jpg"/></a></td>
+		<td><a href="webshop/index.html"><img src="<?php bloginfo('template_directory'); ?>/images/6_off.jpg"/></a></td>
 	</tr-->
 </table>
 
@@ -48,7 +48,7 @@ get_header(); ?>
 						<?php while (have_posts()) : the_post(); ?>
 								<div class="index_news">
 									<p class="index_date"><?php the_title(); ?></p>
-									<br />
+									
 									<?php the_content(); ?>
 								</div>
 						<?php endwhile; ?>
@@ -57,5 +57,4 @@ get_header(); ?>
 					<?php endif; ?>	
 
 <?php
-get_sidebar();
 get_footer();
